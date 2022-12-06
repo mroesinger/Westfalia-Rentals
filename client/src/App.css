@@ -1,0 +1,228 @@
+/***** LOGIN *****/
+
+#big-splash {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://bringatrailer.com/wp-content/uploads/2021/10/1634704722fa28f35087-VW-Vanagon-Syncro-006-scaled.jpg?fit=2048%2C1367") !important;
+}
+
+#splash {
+  height: 100px;
+  padding-left: 40%;
+  order: 0;
+}
+
+.login-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: 10px 10px 10px 10px; */
+}
+
+#login-button {
+  padding-top: 50px;
+  padding-left: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  order: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* #signup-button {
+  order: 1;
+  padding-top: 50px;
+} */
+
+/***** SUBMIT VAN *****/
+
+#submit-van-container {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+  font-family: "viga";
+  font-size: 40pt;
+  margin-top: 14px;
+
+  color: goldenrod;
+  background-color: whitesmoke;
+}
+
+#van-form-container {
+  display: inline-block;
+  width: 60%;
+}
+
+/***** ABOUT *****/
+
+.abouth1 {
+  margin-top: 18%;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+  font-family: "viga";
+  color: goldenrod;
+}
+
+.about {
+  text-align: center;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+  font-family: "viga";
+  font-size: x-large;
+  margin-top: 14px;
+  background-color: white;
+}
+
+#about-image-div {
+  background-image: url("https://preview.redd.it/b59rtqxfgl941.jpg?width=960&crop=smart&auto=webp&s=134f709543c7d47a9a5440f0fcac164e0a3b1dc1") !important;
+
+  height: 1000px;
+  width: 1000px;
+  align-content: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about-text-div {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/***** FOOTER *****/
+
+.footer {
+  background-color: silver !important;
+  display: flex;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 80px;
+  width: 100%;
+}
+
+.brand-buttons {
+  order: 1;
+  padding-top: 1%;
+  size: 500px;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#vw {
+  order: 0;
+  padding-left: 20px;
+}
+
+#westfalia {
+  order: 2;
+  padding-right: 20px;
+}
+
+/***** VANCARD *****/
+.card-img {
+  min-width: 50%;
+  max-width: 70%;
+  max-height: 70%;
+  align-items: center;
+  box-shadow: 3px 3px 3px 3px rgb(114, 114, 114);
+}
+
+.card {
+  max-height: auto;
+  padding-bottom: 140px;
+  align-items: center;
+  padding-left: 20%;
+  padding-top: 5%;
+  background-color: white;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+  font-family: "viga";
+}
+
+#van-name {
+  color: goldenrod;
+  font-size: 30pt;
+}
+
+/***** NAV *****/
+
+#welcome {
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+  font-family: "viga";
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+body {
+  background-color: rgb(10, 165, 226) !important;
+}
+
+#nav-bar {
+  height: 150px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px 10px 10px;
+}
+
+#nav-image-div {
+  max-width: 100%;
+  max-height: 100%;
+  order: 2;
+  padding-right: 50px;
+}
+
+#title-container {
+  /* grid-column: 1; */
+  font-size: 40pt;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+  font-family: "viga";
+  color: goldenrod;
+  order: 0;
+  padding-top: 55px;
+}
+
+#button-container {
+  padding-top: 50px;
+  /* padding-right: 14px; */
+  grid-column: 2;
+  order: 1;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ui-button {
+  width: 10vw;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 7px;
+}
+
+.maintenance-image-div {
+  background-image: url("https://i.pinimg.com/originals/c1/16/1d/c1161dacf100c8d1ced56c8b6d538032.jpg") !important;
+
+  height: 711px;
+  width: 750px;
+  align-content: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.maintenance-text {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  font-family: "viga";
+  font-size: 40pt;
+  margin-top: 14px;
+  color: goldenrod;
+  background-color: black;
+}
