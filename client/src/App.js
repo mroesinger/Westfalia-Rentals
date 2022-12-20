@@ -38,7 +38,7 @@ function App() {
     <div className="App">
       {user ? (
         <div>
-          <h1 id="welcome">SURFS UP, {user.username}!</h1>
+          {/* <h1 id="welcome">SURFS UP, {user.username}!</h1> */}
           <Nav setUser={setUser} user={user} />
 
           <Routes>

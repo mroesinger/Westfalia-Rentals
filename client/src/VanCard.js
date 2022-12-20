@@ -4,6 +4,7 @@ import { Button, Icon, Label, Input, Form } from "semantic-ui-react";
 import { useState, useEffect } from "react";
 import { DatePicker } from "react-rainbow-components";
 // import { Route, Routes } from "react-router-dom";
+import { format } from "date-fns";
 
 function VanCard({
   year_make_model,
@@ -35,6 +36,7 @@ function VanCard({
       disabledDays.push(newDate);
       newDate = new Date(Number(newDate));
       newDate.setDate(newDate.getDate() + 1);
+      format(new Date(), "dd/mm/yyyy");
     }
   });
   const [likes, setLikes] = useState(0);
@@ -89,6 +91,7 @@ function VanCard({
     });
     e.target.reset();
   };
+
   function showCalendar() {
     setCalendarVisible(!calendarVisible);
   }
@@ -132,11 +135,9 @@ function VanCard({
       <h4>Location:{location}</h4>
       <h4>Owner Name: {owner}</h4>
       <h4>Price per night: $ {price}</h4>
-
       <Button onClick={showCalendar} className="ui-button">
         Rent This Westy!
       </Button>
-
       <Button onClick={showReviewForm} className="ui-button">
         Add Review!
       </Button>
@@ -165,7 +166,6 @@ function VanCard({
           </Form.Group>
         </Form>
       ) : null}
-
       {calendarVisible ? (
         <div
           className="rainbow-align-content_center rainbow-m-vertical_large rainbow-p-horizontal_small rainbow-m_auto"
@@ -192,4 +192,5 @@ function VanCard({
     </ul>
   );
 }
+
 export default VanCard;
