@@ -58,14 +58,12 @@
 
 .abouth1 {
   margin-top: 18%;
-  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
   font-family: "viga";
   color: goldenrod;
 }
 
 .about {
   text-align: center;
-  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
   font-family: "viga";
   font-size: x-large;
   margin-top: 14px;
@@ -225,4 +223,40 @@ img {
   margin-top: 14px;
   color: goldenrod;
   background-color: black;
+}
+
+/***TRIPS***/
+
+#trips-h1 {
+  margin-top: 14px;
+  font-family: "viga";
+  color: goldenrod;
+}
+
+#trips {
+  text-align: center;
+  font-family: "viga";
+  font-size: x-large;
+  margin-top: 14px;
+  background-color: white;
+}
+
+#trips-image-div {
+  background-image: url("https://preview.redd.it/b59rtqxfgl941.jpg?width=960&crop=smart&auto=webp&s=134f709543c7d47a9a5440f0fcac164e0a3b1dc1") !important;
+
+  height: 1000px;
+  width: 1000px;
+  align-content: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#trips-dates {
+  text-align: center;
+  font-family: "viga";
+  font-size: xx-large;
+  margin-top: 14px;
+  background-color: white;
 }

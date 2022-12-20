@@ -10,8 +10,8 @@ function About() {
       <h1 className="abouth1">ABOUT</h1>
       <div id="about-text-div">
         <p>
-          WESTFALIA rentals, is a California based platform for VW lovers rent
-          their favorite vans.{"   "}
+          WESTFALIA rentals, is a California based platform for VW lovers to
+          rent their favorite vans.{"   "}
         </p>
         <p>
           Deal with the owners directly so you can have the most personal
