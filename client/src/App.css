@@ -1,60 +1,4 @@
-/***** LOGIN *****/
-
-#big-splash {
-  height: 100vh;
-  width: 100%;
-  background-image: url("https://bringatrailer.com/wp-content/uploads/2021/10/1634704722fa28f35087-VW-Vanagon-Syncro-006-scaled.jpg?fit=2048%2C1367") !important;
-}
-
-#splash {
-  height: 100px;
-  padding-left: 40%;
-  order: 0;
-}
-
-.login-panel {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  /* padding: 10px 10px 10px 10px; */
-}
-
-#login-button {
-  padding-top: 50px;
-  padding-left: 0%;
-  margin-left: auto;
-  margin-right: auto;
-  order: 0;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-/* #signup-button {
-  order: 1;
-  padding-top: 50px;
-} */
-
-/***** SUBMIT VAN *****/
-
-#submit-van-container {
-  text-align: center;
-  padding: 2rem 1rem;
-  margin: 2rem 0;
-  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
-  font-family: "viga";
-  font-size: 40pt;
-  margin-top: 14px;
-
-  color: goldenrod;
-  background-color: whitesmoke;
-}
-
-#van-form-container {
-  display: inline-block;
-  width: 60%;
-}
-
-/***** ABOUT *****/
+/*************************ABOUT*************************/
 
 .abouth1 {
   margin-top: 18%;
@@ -88,7 +32,7 @@
   margin-right: auto;
 }
 
-/***** FOOTER *****/
+/*************************FOOTER*************************/
 
 .footer {
   background-color: silver !important;
@@ -119,35 +63,44 @@
   padding-right: 20px;
 }
 
-/***** VANCARD *****/
-.card-img {
-  min-width: 50%;
-  max-width: 70%;
-  max-height: 70%;
-  align-items: center;
-  box-shadow: 3px 3px 3px 3px rgb(114, 114, 114);
+/*************************LOGIN *************************/
+
+#big-splash {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://bringatrailer.com/wp-content/uploads/2021/10/1634704722fa28f35087-VW-Vanagon-Syncro-006-scaled.jpg?fit=2048%2C1367") !important;
 }
 
-.card {
-  max-height: auto;
-  padding-bottom: 140px;
-  align-items: center;
-  padding-left: 20%;
-  padding-top: 5%;
-  background-color: white;
-  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
-  font-family: "viga";
+#splash {
+  height: 100px;
+  padding-left: 40%;
+  order: 0;
 }
 
-#van-name {
-  color: goldenrod;
-  font-size: 30pt;
+.login-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-/***** NAV *****/
+#login-button {
+  padding-top: 50px;
+  padding-left: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  order: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* #signup-button {
+  order: 1;
+  padding-top: 50px;
+} */
+
+/************************* NAV *************************/
 
 #welcome {
-  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
   font-family: "viga";
   margin-left: 1%;
   margin-top: 1%;
@@ -174,9 +127,7 @@ body {
 }
 
 #title-container {
-  /* grid-column: 1; */
   font-size: 40pt;
-  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
   font-family: "viga";
   color: goldenrod;
   order: 0;
@@ -185,7 +136,6 @@ body {
 
 #button-container {
   padding-top: 50px;
-  /* padding-right: 14px; */
   grid-column: 2;
   order: 1;
   max-width: 100%;
@@ -225,7 +175,27 @@ img {
   background-color: black;
 }
 
-/***TRIPS***/
+/************************* SUBMIT VAN *************************/
+
+#submit-van-container {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+  font-family: "viga";
+  font-size: 40pt;
+  margin-top: 14px;
+
+  color: goldenrod;
+  background-color: whitesmoke;
+}
+
+#van-form-container {
+  display: inline-block;
+  width: 60%;
+}
+
+/*************************TRIPS*************************/
 
 #trips-h1 {
   margin-top: 14px;
@@ -259,4 +229,28 @@ img {
   font-size: xx-large;
   margin-top: 14px;
   background-color: white;
+}
+
+/************************* VANCARD *************************/
+.card-img {
+  min-width: 50%;
+  max-width: 70%;
+  max-height: 70%;
+  align-items: center;
+  box-shadow: 3px 3px 3px 3px rgb(114, 114, 114);
+}
+
+.card {
+  max-height: auto;
+  padding-bottom: 140px;
+  align-items: center;
+  padding-left: 20%;
+  padding-top: 5%;
+  background-color: white;
+  font-family: "viga";
+}
+
+#van-name {
+  color: goldenrod;
+  font-size: 30pt;
 }
