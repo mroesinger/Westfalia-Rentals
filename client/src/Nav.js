@@ -24,7 +24,7 @@ function Nav({ setUser, user }) {
         <Button.Group>
           <Link to="/VanPage">
             <Button className="ui-button" type="button">
-              Vans for rent
+              Vans For Rent
             </Button>
           </Link>
 

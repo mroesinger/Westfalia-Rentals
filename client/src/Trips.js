@@ -12,11 +12,22 @@ function Trips() {
       });
   }, []);
 
+  useEffect(() => {
+    fetch("/me").then((response) => {
+      if (response.ok) {
+        response.json().then((user) => setUser(user));
+      }
+    });
+  }, []);
+  const [user, setUser] = useState(false);
+
   return (
     <div id="trips">
       {trips.length > 0 ? (
         <>
-          <h1 id="trips-h1">CONGRATULATIONS! You're going on an adventure!</h1>
+          <h1 id="trips-h1">
+            CONGRATULATIONS, {user.username}! You're going on an adventure!
+          </h1>
           <h1 id="trips-dates">
             Your journey will be from:
             {trips[0].start_date} through {trips[0].end_date}
