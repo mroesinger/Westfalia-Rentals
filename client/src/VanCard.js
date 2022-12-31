@@ -176,7 +176,7 @@ function VanCard({
               id="datePicker-15"
               // label="Choose your own adventure!"
               disabledDays={disabledDays}
-              placeholder="Choose your own VW adventure!"
+              placeholder="Choose your own adventure!"
               selectionType="range"
               formatStyle="large"
               variant="single"
