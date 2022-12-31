@@ -104,10 +104,12 @@
   font-family: "viga";
   margin-left: 1%;
   margin-top: 1%;
+  color: black;
 }
 
 body {
-  background-color: rgb(10, 165, 226) !important;
+  /* background-color: rgb(10, 165, 226) !important; */
+  background-color: dodgerblue !important;
 }
 
 #nav-bar {
