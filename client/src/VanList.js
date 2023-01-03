@@ -23,9 +23,9 @@ function VanList({ vans, user }) {
   });
 
   return (
-    <ul>
-      <div>{vanCards}</div>
-    </ul>
+    // <ul>
+    <div>{vanCards}</div>
+    // </ul>
   );
 }
 
