@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { DatePicker } from "react-rainbow-components";
 // import { Route, Routes } from "react-router-dom";
 import { format } from "date-fns";
+import { useNavigate } from "react-router-dom";
 
 function VanCard({
   year_make_model,
@@ -28,6 +29,7 @@ function VanCard({
     maxWidth: 400,
   };
   const disabledDays = [];
+  const navigate = useNavigate();
   trips.forEach((trip) => {
     const start = new Date(trip.start_date);
     const end = new Date(trip.end_date);
@@ -52,9 +54,12 @@ function VanCard({
   };
 
   const [formVisible, setFormVisible] = useState(false);
-  const [review, setReview] = useState("");
+  const [text, setReview] = useState("");
+  // const addReview = (review) => {
+  //   setReviews((review) => [...reviews, review]);
+  // };
   let newReview = {
-    review: review,
+    text: text,
     review_id: id,
   };
 
@@ -90,6 +95,7 @@ function VanCard({
       }
     });
     e.target.reset();
+    navigate(`/trips`);
   };
 
   function showCalendar() {
@@ -98,8 +104,7 @@ function VanCard({
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    fetch("http://localhost:3000/api/trips", {
+    fetch("/api/reviews", {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -114,7 +119,6 @@ function VanCard({
     e.target.reset();
     setFormVisible(!formVisible);
   };
-
   function showReviewForm() {
     setFormVisible(!formVisible);
   }
@@ -158,7 +162,7 @@ function VanCard({
           <Form.Group widths="equal">
             <Form.Field
               onChange={(e) => setReview(e.target.value)}
-              value={Input}
+              value={text}
               control={Input}
               placeholder="How did you like this van?"
             />

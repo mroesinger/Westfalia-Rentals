@@ -20,7 +20,7 @@ function Trips() {
     });
   }, []);
   const [user, setUser] = useState(false);
-
+  console.log(trips);
   return (
     <div id="trips">
       {trips.length > 0 ? (

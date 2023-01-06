@@ -1,5 +1,5 @@
 class TripsController < ApplicationController
-        def index
+      def index
           if params[:van_id]
             van = Van.find(params[:van_id])
             render json: van.trips, status: :ok
