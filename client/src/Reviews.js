@@ -5,6 +5,16 @@ import "./App.css";
 function Reviews({ id }) {
   const [reviews, setReviews] = useState([]);
   const [text, setText] = useState("");
+  const renderReviews = reviews.map((review) => {
+    return (
+      <Reviews
+        key={review.id}
+        date={review.date}
+        text={review.text}
+        body={review.body}
+      />
+    );
+  });
 
   let newReview = {
     text: text,
@@ -41,21 +51,10 @@ function Reviews({ id }) {
     fetch(`/reviews/${id}`, { method: "DELETE" });
   }
 
-  const renderReviews = reviews.map((review) => {
-    return (
-      <Reviews
-        key={review.id}
-        date={review.date}
-        text={review.text}
-        body={review.body}
-      />
-    );
-  });
-
   return (
     <div className="reviews-container">
       <Header as="h3" dividing>
-        reviews
+        yay
       </Header>
       <div className="reviews-panel">{renderReviews}</div>
       <div className="reviews-form">
