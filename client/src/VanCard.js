@@ -95,7 +95,7 @@ function VanCard({
       }
     });
     e.target.reset();
-    navigate(`/trips`);
+    // navigate(`/trips`);
   };
 
   function showCalendar() {
