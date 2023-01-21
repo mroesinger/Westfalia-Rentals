@@ -62,6 +62,7 @@ function Reviews({ id }) {
           <Form.Field
             onChange={(e) => setText(e.target.value)}
             value={text}
+            spellCheck
             control={Input}
             placeholder="Your Review"
           />
