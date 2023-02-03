@@ -29,7 +29,7 @@ function VanCard({
     maxWidth: 400,
   };
   const disabledDays = [];
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   trips.forEach((trip) => {
     const start = new Date(trip.start_date);
     const end = new Date(trip.end_date);
@@ -158,7 +158,7 @@ function VanCard({
         </Label>
       </Button>
       {formVisible ? (
-        <Form onSubmit={handleSubmit}>
+        <Form className="review-form" onSubmit={handleSubmit}>
           <Form.Group widths="equal">
             <Form.Field
               onChange={(e) => setReview(e.target.value)}

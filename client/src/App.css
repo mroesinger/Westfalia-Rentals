@@ -146,6 +146,7 @@ body {
 
 .ui-button {
   width: 10vw;
+  padding-right: 5px;
 }
 
 img {
@@ -257,4 +258,8 @@ img {
 #van-name {
   color: goldenrod;
   font-size: 30pt;
+}
+
+#review-form {
+  padding-top: 10px;
 }
