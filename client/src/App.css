@@ -103,8 +103,12 @@
 #welcome {
   font-family: "viga";
   margin-left: 1%;
-  margin-top: 1%;
+  /* margin-top: 1%; */
   color: black;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 body {
@@ -117,8 +121,12 @@ body {
   background-color: white;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 10px 10px 10px 10px;
+  position: fixed;
+  margin-top: 0;
+  padding-top: 0;
+  top: 0px;
 }
 
 #nav-image-div {
@@ -132,7 +140,9 @@ body {
   font-size: 40pt;
   font-family: "viga";
   color: goldenrod;
-  order: 0;
+  max-height: 100%;
+
+  /* order: 0; */
   padding-top: 55px;
 }
 

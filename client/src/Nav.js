@@ -13,6 +13,7 @@ function Nav({ setUser, user }) {
 
   return (
     <div id="nav-bar">
+      {/* <div id="welcome">SURFS UP, {user.username}!</div> */}
       <div id="title-container">WESTFALIA rentals</div>
       <div id="nav-image-div">
         <img
