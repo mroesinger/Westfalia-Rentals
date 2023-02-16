@@ -1,1 +1,1 @@
-Westfalia Rentals is a platform allowing van owners to rent their vans to site users.
+Westfalia Rentals is a platform allowing van owners to rent their personal camper vans to site users.
