@@ -9,6 +9,7 @@ import SubmitYourVan from "./SubmitYourVan.js";
 import Trips from "./Trips.js";
 import Reviews from "./Reviews.js";
 import { Button } from "semantic-ui-react";
+import PostReview from "./ReviewsForm";
 
 function App() {
   const [vans, setVans] = useState([]);

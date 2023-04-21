@@ -41,11 +41,11 @@ function Nav({ setUser, user }) {
             </Button>
           </Link>
 
-          <Link to="/reviews">
+          {/* <Link to="/reviews">
             <Button className="ui-button" type="button">
               Reviews
             </Button>
-          </Link>
+          </Link> */}
 
           <Link to="/trips">
             <Button className="ui-button" type="button">
