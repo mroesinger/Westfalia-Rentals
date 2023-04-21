@@ -70,10 +70,12 @@
   height: 100vh;
   width: 100%;
   background-image: url("https://bringatrailer.com/wp-content/uploads/2021/10/1634704722fa28f35087-VW-Vanagon-Syncro-006-scaled.jpg?fit=2048%2C1367") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #splash {
-  height: 100px;
   padding-left: 40%;
   order: 0;
 }
@@ -82,6 +84,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 5px;
 }
 
 #login-button {
