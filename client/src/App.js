@@ -7,9 +7,9 @@ import Nav from "./Nav.js";
 import VanPage from "./VanPage.js";
 import SubmitYourVan from "./SubmitYourVan.js";
 import Trips from "./Trips.js";
-import Reviews from "./Reviews.js";
+// import Reviews from "./Reviews.js";
 import { Button } from "semantic-ui-react";
-import PostReview from "./ReviewsForm";
+// import PostReview from "./ReviewsForm";
 
 function App() {
   const [vans, setVans] = useState([]);
@@ -53,7 +53,7 @@ function App() {
             />
             <Route path="/about" element={<About />} />
             <Route path="/nav" element={<Nav />} />
-            <Route path="/reviews" element={<Reviews />} />
+            {/* <Route path="/reviews" element={<Reviews />} /> */}
             <Route path="/trips" element={<Trips />} />
             <Route path="*" element={<h1>404 not found</h1>} />
           </Routes>
