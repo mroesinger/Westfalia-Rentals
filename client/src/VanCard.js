@@ -1,11 +1,11 @@
 import "./App.css";
 // import Trips from "./Trips";
 import { Button, Icon, Label, Input, Form } from "semantic-ui-react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { DatePicker } from "react-rainbow-components";
 // import { Route, Routes } from "react-router-dom";
 import { format } from "date-fns";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 function VanCard({
   year_make_model,
