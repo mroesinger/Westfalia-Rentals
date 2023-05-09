@@ -95,7 +95,6 @@ function SubmitYourVan({ addVan }) {
             placeholder="Equipment"
           />
           <Form.Field
-            Dogs
             onChange={(e) => setDogs(e.target.value)}
             value={dogs}
             control={Input}
@@ -119,11 +118,6 @@ function SubmitYourVan({ addVan }) {
             control={TextArea}
             placeholder="Description"
           />
-          <select class="ui dropdown">
-            <option value="">Dogs Allowed?</option>
-            <option value="1">Yes</option>
-            <option value="0">No</option>
-          </select>
           <Form.Field control={Button} content="SUBMIT YOUR VAN!" />
         </Form>
       </div>
