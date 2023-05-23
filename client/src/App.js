@@ -13,7 +13,7 @@ import { Button } from "semantic-ui-react";
 
 function App() {
   const [vans, setVans] = useState([]);
-  const [user, setUser] = useState(false);
+  const [user, setUser] = useState(false); //change to true for diag.
   const addVan = (van) => {
     setVans((vans) => [...vans, van]);
   };

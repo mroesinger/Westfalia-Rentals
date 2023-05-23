@@ -131,7 +131,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 #nav-image-div {
@@ -270,6 +270,8 @@ img {
   padding-top: 5%;
   background-color: white;
   font-family: "viga";
+  margin-top: 95px; /* Adjust this value as needed */
+  /* Remaining styles */
 }
 
 #van-name {
