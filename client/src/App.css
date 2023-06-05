@@ -161,6 +161,8 @@ body {
 
 .ui-button {
   width: 12vw;
+  width: 12vw;
+  margin-right: 5px !important; /* Add margin-right for spacing */
 }
 
 img {
